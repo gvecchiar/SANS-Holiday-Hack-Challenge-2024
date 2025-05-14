@@ -86,7 +86,7 @@ The correct index values we need to pass are as follows (remember that array ind
 -	`stopBits[0] = 1`
 -	`flowControlOptions[3]=RTS`
   
-So the correct array is `serial= [3,9,2,7,1,3]`
+So the correct array is `serial= [3,9,2,2,0,3]`
 
 With all this information at hand, we can make a simple curl POST request with our `requestID`, the value of `serial` and `voltage` to the URI for API v1; [https://hhc24-hardwarehacking.holidayhackchallenge.com/api/v1/complete](https://hhc24-hardwarehacking.holidayhackchallenge.com/api/v1/complete)
 
